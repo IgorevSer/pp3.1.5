@@ -32,11 +32,7 @@ public class RestAdminController {
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 
-    @GetMapping(value = "/currentUser")
-    public ResponseEntity<User> getCurrentUsers(Principal principal) {
-        User user = userService.getUserByEmail(principal.getName());
-        return new ResponseEntity<>(user, HttpStatus.OK);
-    }
+
 
     @GetMapping(value = "/users/{id}")
     public ResponseEntity<User> getUserById(@PathVariable Long id) {

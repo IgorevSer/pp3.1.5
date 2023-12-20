@@ -1,5 +1,5 @@
 //url
-const currentUserUrl = "/api/admin/currentUser";
+const currentUserUrl = "/api/user/currentUser";
 const adminTableUrl = "/api/admin";
 const getRolesUrl = "api/admin/roles";
 const userUrl = "api/admin/users";

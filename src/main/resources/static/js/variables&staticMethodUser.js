@@ -1,5 +1,5 @@
 //url
-const currentUserUrl = "/api/admin/currentUser";
+const currentUserUrl = "/api/user/currentUser";
 const userUrl = "api/admin/users";
 
 
