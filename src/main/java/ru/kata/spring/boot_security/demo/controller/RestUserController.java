@@ -14,7 +14,7 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping(value = "/api/user")
-@PreAuthorize("hasAnyAuthority('USER')")
+@PreAuthorize("hasAnyAuthority('USER','ADMIN')")
 public class RestUserController {
     private final UserService userService;
 
